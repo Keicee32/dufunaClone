@@ -1,0 +1,152 @@
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.5;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.navbar{
+    height: 90px;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    
+}
+
+.navbar .flex{
+    justify-content: space-between; /* This add space between the logo or Heading and the list items */
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    padding: 20px 20px;
+    margin: 0 5px;
+    font-size: 1.1rem;
+}
+
+.navbar a:hover{
+    color: var(--blue);
+}
+
+.navbar img{
+    width: 150px;
+}
+
+.navbar .btn:hover,
+.header .btn:hover{
+    color: white;
+    opacity: 0.9;
+}
+
+.header{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header h1{
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+.header p{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.header .btn{
+    font-size: 20px;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 50px;
+    /* font-weight: bold; */
+}
+
+.programmes{
+    margin-top: 200px;
+    background: rgba(59, 58, 58, 0.2);
+}
+
+.programmes h2{
+    color: var(--blue);
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+.programmes p{
+    font-size: 2.5rem;
+}
+
+.programmes .card p{
+    font-size: 1rem;
+}
+
+.programmes .card i{
+    padding-right: 4px;
+}
+
+.programmes .btn{
+    font-size: 20px;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 50px;
+    
+}
