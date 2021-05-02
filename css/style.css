@@ -99,18 +99,79 @@ img{
     justify-content: flex-end;
     margin-bottom: 50px;
     text-align: center;
-    margin-top: 50px;
 }
 
 .header h1{
     font-weight: 500;
     margin-bottom: 0.5rem;
     font-size: 2.5rem;
+    letter-spacing: 2px;
 }
 .header p{
     font-size: 20px;
     padding-top: 5px;
 }
+
+.glass-1{
+    background: white;
+    background: linear-gradient(to right top, rgba(255,255,255, 0.7), rgba(255,255,255, 0.2));
+    border-radius: 50%;
+    /* border: 2px solid rgb(112, 111, 111);  */
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/photo-1435002613239-45e322caf14d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.glass-2{
+    background: white;
+    background: linear-gradient(to right top, rgba(255,255,255, 0.7), rgba(255,255,255, 0.2));
+    border-radius: 50%;
+    /* border: 2px solid rgb(112, 111, 111);  */
+    position: absolute;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/photo-1435002613239-45e322caf14d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.glass-3{
+    background: white;
+    background: linear-gradient(to right top, rgba(255,255,255, 0.7), rgba(255,255,255, 0.2));
+    border-radius: 50%;
+    /* border: 2px solid rgb(112, 111, 111);  */
+    position: absolute;
+    right: 240px;
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/photo-1435002613239-45e322caf14d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.glass-4{
+    background: white;
+    background: linear-gradient(to right top, rgba(255,255,255, 0.7), rgba(255,255,255, 0.2));
+    border-radius: 50%;
+    /* border: 2px solid rgb(112, 111, 111);  */
+    position: absolute;
+    right: 150px;
+    top: 250px;
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/photo-1435002613239-45e322caf14d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 .header .btn{
     font-size: 20px;
@@ -147,6 +208,37 @@ img{
     font-size: 20px;
     padding: 15px 20px;
     display: inline-block;
-    margin-top: 50px;
-    
+    margin: 20px;   
+}
+
+.btn-prog{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.programmes-2{
+    background: var(--gray-dark);
+}
+
+.programmes-2 h2{
+    color: #fff;
+    padding-top: 150px;
+    font-size: 15px;
+}
+
+.programmes-2 p{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.programmes-2 .btn{
+    font-size: 20px;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 20px;   
+}
+
+.programmes-2 .card p{
+    font-size: 1rem;
+    color: var(--gray)
 }
